@@ -17,23 +17,26 @@ namespace Ken.MVC.Controllers
         }
 
         [Authorize]
-        public ActionResult Index2()
+        public ActionResult RootPage() // not in use
         {
             var identity = System.Web.HttpContext.Current.User.Identity as ClaimsIdentity;
             return View(identity.Claims);
         }
+        
         [Authorize]
         public ActionResult Secure()
         {
             var identity = System.Web.HttpContext.Current.User.Identity as ClaimsIdentity;
             return View(identity.Claims);
         }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
+
 
         public ActionResult Contact()
         {

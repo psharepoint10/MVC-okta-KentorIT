@@ -62,15 +62,15 @@ namespace Ken.MVC.Controllers
         }
 
         //
-        // GET: /Account/Register
+        /* No Registration - required - GET: /Account/Register
         [AllowAnonymous]
         public ActionResult Register()
         {
             return View();
-        }
+        }*/
 
         //
-        // POST: /Account/Register
+        /* POST: /Account/Register
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -94,7 +94,7 @@ namespace Ken.MVC.Controllers
             // If we got this far, something failed, redisplay form
             return View(model);
         }
-
+        */
         //
         // POST: /Account/Disassociate
         [HttpPost]
