@@ -195,7 +195,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="MetaDataFile_FromOkta.xml" />
+    <Content Include="Okta_SAML_Metadata.xml" />
     <Content Include="ReadMe-POC.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
