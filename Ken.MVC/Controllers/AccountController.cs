@@ -197,7 +197,7 @@ namespace Ken.MVC.Controllers
         public async Task<ActionResult> ExternalLoginCallback(string returnUrl)
         {
             var loginInfo = await AuthenticationManager.GetExternalLoginInfoAsync();
-            if (loginInfo == null)
+            if (loginInfo == null) // null?
             {
                 return RedirectToAction("Login");
             }
